@@ -1,4 +1,6 @@
 #This module has 2 functions: 1) to calculate area ans 2) circumference of a circle
+
+import math
 def calculate_square_footage():
     try:
         length = float(input("Enter the length of the house (in feet): "))
@@ -17,7 +19,7 @@ if __name__ == "__main__":
 #circumference of a circle
 
 import math
-30
+
 def calculate_circumference():
     try:
         radius = float(input("Enter the radius of the circle (in units): "))
